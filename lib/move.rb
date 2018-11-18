@@ -13,5 +13,7 @@ def input_to_index(user_input)
 end
 
 def move(array, index, value = "X")
+  puts "Please enter 'X' or 'O'"
+  value = gets.to_s
   array[index] = value
 end
